@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 
 FREETYPE_SRC_PATH := ../../
 
-LOCAL_MODULE := freetype2-static
+LOCAL_MODULE := freetype2
 
 LOCAL_CFLAGS := -DANDROID_NDK \
 		-DFT2_BUILD_LIBRARY=1
@@ -38,5 +38,5 @@ LOCAL_SRC_FILES := \
 
 LOCAL_LDLIBS := -ldl -llog
 
-include $(BUILD_STATIC_LIBRARY)
+include $(BUILD_SHARED_LIBRARY)
 
