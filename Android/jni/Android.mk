@@ -4,7 +4,7 @@ include $(CLEAR_VARS)
 
 FREETYPE_SRC_PATH := ../../
 
-LOCAL_MODULE := freetype2
+LOCAL_MODULE := freetype
 
 LOCAL_CFLAGS := -DANDROID_NDK \
 		-DFT2_BUILD_LIBRARY=1
